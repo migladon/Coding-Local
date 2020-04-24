@@ -1,0 +1,47 @@
+
+Git and GitHub
+
+-Git and GitHub are separate
+-Git is a version control system (VCS)
+-Git commands can be typed directly into terminal
+    -git config --global user.name "Your Name"
+    -git config --global user.email "your@email.com"
+        These commands are so git can show the name/email of the person who made the change on the .git file.
+    -git init is the command to create a hidden .git file that will track the project
+        (must make sure you are in the parent/project folder you want to track).
+    -git status shows the branch, commits and untracked files
+    -git add XXXXXXX.xxx will add an existing file to the staging area of Git
+    -git commit -m "Your Commit Message" will commit the changes
+    -git log shows a history of commits
+    -git add . will add everything in the staging area
+
+
+Useful Terminal Commands (Mac)
+
+ls -a : list files, including hidden ones (useful to verify .git file was created)
+-touch XXXXXXX.xxx creates a file
+cd .. moves up a folder
+exit() : exits the program (Python)
+python --version : checked python version
+
+
+Python
+
+-Use spaces in code, not tabs (text editors can be formatted to put spaces when tab is pressed)
+-\n is a line break and can be added directly into strings
+-\t is a tab and can be added directly to strings
+-Python IDLE stands for Interactive Learning Development Environment
+-python2 does not support end=' '
+-In terminal, Python loop statement requires an empty line after
+
+
+
+Interpreter and Compiler
+
+-An interpreter is the interface between high level human and high level machine language. Python is an interpreter.
+-A compiler interprets high level code into machine code
+-Executable files (.exe, etc) are machine language (compiler language) copies to one another
+
+Atom Editor
+
+CMND + / : comment code
